@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+<ProgressBar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:id="@+id/progressBar"
+    android:visibility="gone"/>
+<RelativeLayout
+    android:layout_centerInParent="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/relativelayout">
+
+    <Button
+        android:id="@+id/btnchoosemusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+        android:onClick="btnchoosemusicclicked"
+        android:text="Choose Music" />
+
+    <EditText
+        android:id="@+id/edtmusicname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnchoosemusic"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Song Name" />
+
+    <EditText
+        android:id="@+id/edtArtistname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edtmusicname"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Artist Name" />
+
+    <AutoCompleteTextView
+        android:id="@+id/edtmusiccategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtArtistname"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Song Category Name" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtmusiccategory"
+        android:onClick="btnuploadmusicclicked"
+        android:text="Upload" />
+</RelativeLayout>
+</RelativeLayout>

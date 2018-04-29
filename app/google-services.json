@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "159328580524",
+    "firebase_url": "https://online-music-stream-7b0fa.firebaseio.com",
+    "project_id": "online-music-stream-7b0fa",
+    "storage_bucket": "online-music-stream-7b0fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159328580524:android:bf1eb20c4a2a8ada",
+        "android_client_info": {
+          "package_name": "android.sharma.com.onlinemusicplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159328580524-nal3opnqt0k9tru9pc8sb5568daeoeag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.sharma.com.onlinemusicplayer",
+            "certificate_hash": "ddaa0eb7bed1ccd3294f39040aa3bd94278de5e2"
+          }
+        },
+        {
+          "client_id": "159328580524-4kajabtq8uivcj7lgefh2iri63e42871.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpNu9yE0vNFLwD72A1ZuDQr4T7TeH3Sgw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159328580524-4kajabtq8uivcj7lgefh2iri63e42871.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
